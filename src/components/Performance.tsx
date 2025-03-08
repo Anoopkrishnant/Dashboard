@@ -24,7 +24,7 @@ const Performance = () => {
         <p className="text-gray-500 text-sm">of 100 points</p>
         </div>
          <div className="text-start">
-        <p className="font-semibold text-lg mt-2 text-gray-900">You're good!</p>
+        <p className="font-semibold text-lg mt-2 text-gray-900">You&apos;re good!</p>
         <p className="text-sm text-gray-500 mt-2">
           Your sales performance score is better than 80% of other users
         </p>
