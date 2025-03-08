@@ -14,7 +14,7 @@ export const fetchPosts = async (body, endPoint) => {
     };
   }
   return await axios
-    .post(`${endPoint}`, body, {
+    .post(`api/${endPoint}`, body, {
       headers: headers,
     })
     .then((res) => {
