@@ -12,7 +12,7 @@ export const fetchGet = async (endPoint, config) => {
   }
 
   try {
-    const response = await axios.get(`http://3.111.196.92:8020/${endPoint}`, { headers });
+    const response = await axios.get(`${endPoint}`, { headers });
     return response.data; 
   } catch (error) {
     console.error("API Error:", error?.response?.data || error.message);

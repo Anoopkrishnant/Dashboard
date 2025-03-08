@@ -14,7 +14,7 @@ export const fetchPosts = async (body, endPoint) => {
     };
   }
   return await axios
-    .post(`http://3.111.196.92:8020/${endPoint}`, body, {
+    .post(`${endPoint}`, body, {
       headers: headers,
     })
     .then((res) => {
